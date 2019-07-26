@@ -4,8 +4,7 @@ def oxford_comma(array_to_string)
   last_index = array_to_string.last
 
 if array_to_string.size == 1
-  # array_to_string[0]
-  array_to_string
+  array_to_string[0]
 
   elsif array_to_string.size == 2
     array_to_string.join(" and ")
